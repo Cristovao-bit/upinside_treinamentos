@@ -1,0 +1,517 @@
+/*
+CONTENT
+*/
+.content{
+    float: left; 
+    width: 92%;
+    margin: 0 4%;
+    padding: 20px 0;
+}
+
+/*
+HEADER
+*/
+.main_header{
+    background: #007fff;
+    position: relative;
+}
+
+.main_header_logo{
+    font-size: 0;
+    float: left;
+}
+
+.main_header_logo img{
+    height: 58px;
+}
+
+.mobile_action{
+    width: 46px;
+    height: 46px;
+    margin: 10px 0 0 0;
+    float: right;
+    cursor: pointer;
+    background: #1a5977 url(../img/mobile.png) center center no-repeat;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.mobile_action.active{
+    background-color: #000;
+}
+
+.mobile_action:hover{
+    background-color: #fff;
+}
+
+/*menu*/
+.main_header_nav{
+    position: fixed;
+    left: -100%;
+    top: 0;
+    width: 76%;
+    height: 100%;
+    min-width: 200px;
+    max-width: 360px;
+    background: #222;
+    z-index: 99;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.main_header_nav_search{
+    float: left;
+    width: 100%;
+    background: #000;
+    padding: 31px 15px;
+}
+
+.main_header_nav_search .s{
+    float: left;
+    width: 80%;
+    border: none;
+}
+
+.main_header_nav_search .b{
+    float: right;
+    width: 20%;
+    border: none;
+    cursor: pointer;
+    background: url(../img/search.png) center center no-repeat;
+}
+
+.main_header_nav_item{
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.main_header_nav_item > a{
+    float: left;
+    width: 100%;
+    padding: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #eee;
+    font-size: 0.875em;
+    font-weight: bold;
+}
+
+.main_header_nav_item:hover,
+.main_header_nav_item > a:hover{
+    background: #444;
+    color: #fff;
+}
+
+.main_header_nav_sub{
+    float: left;
+    width: 100%;
+    padding: 10px;
+    background: #333;
+}
+
+.main_header_nav_sub_item{
+    float: left;
+    width: 100%;
+}
+
+.main_header_nav_sub_item a{
+    float: left;
+    width: 100%;
+    padding: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.8em;
+}
+
+.main_header_nav_sub_item a:hover{
+    background: #007fff;
+}
+
+/*
+SLIDER
+*/
+.slide{
+    background: #333;
+    position: relative;
+    display: block;
+}
+
+.slide_controll{
+    position: absolute;
+    top: 25%;
+    width: 100%;
+}
+
+.slide_nav{
+    position: absolute;
+    padding: 5px 15px;
+    font-size: 2em;
+    background: rgba(255,255,255,0.6);
+    cursor: pointer;
+    z-index: 89;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.slide_nav:hover{
+    background: #007fff;
+}
+
+.slide_nav.back{
+    left: 0;
+    margin-left: 5px;
+}
+
+.slide_nav.go{
+    right: 0;
+    margin-right: 5px;
+}
+
+.slide_item{
+    display: none;
+}
+
+.slide_item.first{
+    display: block;
+}
+
+.slide_item_desc{
+    padding: 15px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.slide_item_desc h1{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.slide_item_desc a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.slide_item_desc a:hover{
+    text-decoration: underline;
+}
+
+.slide_item_desc .tagline{
+    font-size: 0.875em;
+    color: #bbb;
+    font-weight: 300;
+}
+
+/*
+DESTINOS MAIS VISTOS
+*/
+.more_news{
+    padding: 10px 5px;
+    background: url(../img/bg_news.jpg);
+}
+
+.more_news_item{
+    float: left;
+    width: 100%;
+    background: #fff;
+    margin-top: 20px;
+    box-shadow: 0 0 5px #000;
+}
+
+.more_news_item_desc{
+    padding: 15px;
+}
+
+.more_news_item_desc h1{
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.more_news_item_desc a{
+    text-decoration: none;
+    color: #007fff;
+}
+
+.more_news_item_desc a:hover{
+    text-decoration: underline;
+}
+
+.more_news_item_desc time{
+    font-size: 0.8em;
+    color: #888;
+}
+
+/*
+MELHORES DESTINOS
+*/
+.bestviews_item{
+    float: left;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.bestviews_item time{
+    font-size: 0.875em;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 5px;
+    color: #007fff;
+}
+
+.bestviews_item h1{
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.bestviews_item a{
+    text-decoration: none;
+    color: #000;
+}
+
+.bestviews_item a:hover{
+    text-decoration: underline;
+}
+
+/*
+NEWSLETTER
+*/
+.newsletter{
+    padding: 10px;
+    background: #007fff;
+    margin-top: 30px;
+    text-align: center;
+    position: relative;
+    color: #fff;
+}
+
+.newsletter h1{
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.newsletter form{
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.newsletter input[type="email"]{
+    float: left;
+    width: 60%;
+    border: none;
+    padding: 11px;
+}
+
+.newsletter input[type="submit"]{
+    float: left;
+    width: 40%;
+    background: #1a5977;
+    border: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.newsletter_icon{
+    width: 54px;
+    height: 54px;
+    background: #007fff url(../img/newsletter.png) center center no-repeat;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-top: -24px;
+    margin-left: -27px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+/*
+MAIS VISTOS
+*/
+.most_views{
+    background: #eee;
+}
+
+.most_views_item{
+    float: left;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.most_views_item img{
+    float: left;
+    width: 35%;
+}
+
+.most_views_item_desc{
+    float: right;
+    width: 65%;
+    padding-left: 15px;
+}
+
+.most_views_item_desc time{
+    font-size: 0.875em;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.most_views_item_desc h1{
+    font-size: 1em;
+}
+
+.most_views_item_desc a{
+    text-decoration: none;
+    color: #007fff;
+}
+
+.most_views_item_desc a:hover{
+    text-decoration: underline;
+}
+
+/*
+GALERIA
+*/
+.gallery{
+    padding: 25px;
+}
+
+.gallery .section_title{
+    margin-bottom: 15px;
+}
+
+.gallery img{
+    float: left;
+    width: 50%;
+}
+
+/*
+FOOTER
+*/
+.main_footer{
+    padding: 10px;
+    background: #333;
+    text-align: center;
+    color: #fff;
+    font-size: 0.875em;
+}
+
+.main_footer_social{
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.main_footer_social li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.main_footer_social a{
+    float: left;
+    padding: 10px;
+    background: #fff;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.main_footer_social a:hover{
+    background: #007fff;
+}
+
+/*
+480PX BREAKPOINT
+*/
+
+/*480/16=30em*/
+@media (min-width: 30em){
+    .more_news_item{
+        float: left;
+        width: 48%;
+        margin-right: 4%;
+        min-height: 300px;
+    }
+    
+    .more_news_item:nth-of-type(2n+0){
+        margin-right: 0;
+    }
+}
+
+/*
+592PX BREAKPOINT
+*/
+@media (min-width: 37em){
+    .most_views_item h1{
+        font-size: 1.3em;
+    }
+    
+    .gallery img{
+        float: left;
+        width: 33.33333333333333%;
+    }
+}
+
+/*
+768PX BREAKPOINT
+*/
+@media (min-width: 48em){
+    .main_header{
+        background: #000;
+    }
+    
+    .main_header_logo{
+        position: absolute;
+        top: 0;
+        padding: 35px 20px;
+        background: #fff;
+        z-index: 98;
+        border: 4px solid #007fff;
+        border-top: none;
+        box-shadow: 0 0 4px #333;
+    }
+    
+    .section_title{
+        font-size: 2em;
+        font-weight: 300;
+        text-align: left;
+    }
+    
+    .more_news_item:nth-of-type(2n+0),
+    .more_news_item{
+        float: left;
+        width: 23.5%;
+        margin-right: 2%;
+    }
+    
+    .more_news_item:nth-of-type(4n+0){
+        margin-right: 0;
+    }
+    
+    .most_views_item,
+    .bestviews_item{
+        float: left;
+        width: 48%;
+        margin-right: 4%;
+    }
+    
+    .most_views_item:nth-of-type(2n+0),
+    .bestviews_item:nth-of-type(2n+0){
+        margin-right: 0;
+    }
+    
+    .newsletter h1{
+        font-size: 1.8em;
+    }
+    
+    .most_views_item h1{
+        font-size: 1em;
+    }
+}

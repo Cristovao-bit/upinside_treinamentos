@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<?php
+define('BASE', 'http://localhost/exercicio_upinside_treinamentos/html5_do_jeito_certo/7%C2%BA_modulo-estilo_interativo_com_id/02_estilizando_footer/');
+?>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Curso Work Series -  HTML5 do Jeito Certo!</title>
+        
+        <!--[if lt IE 9]>
+               <script src="js/html5shiv.js"></script>
+        <![endif]-->
+        
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">        
+        <link rel="stylesheet" href="css/boot.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="shortcut icon" href="img/favicon.png"/>
+        
+    </head>
+    <body>
+        <!--Sermpre utilizar traço quando for class do boot e anderline quando for pra style, assim fica mais fácil de indetificar!-->
+        <header class="container bg-gray">
+            <div class="content">
+                <h1 class="main_logo fl-left fontzero">
+                    <a title="Home" href="<?= BASE; ?>" class="radius">
+                        Curso Work Series -  HTML5 do Jeito Certo!
+                    </a>
+                </h1>
+
+                <ul class="main_nav fl-right">
+                    <li><a title="HTML5 Semântico" href="<?= BASE; ?>/html5-semantico">Semântico</a></li>
+                    <li><a title="Estilo Produtivo com OOCSS" href="<?= BASE; ?>/estilo-com-oocss">OOCSS</a></li>
+                    <li><a title="Formulários com HTML5" href="<?= BASE; ?>/formularios-com-html5">Forms</a></li>
+                    <li><a title="Áudio e Vídeo na Web" href="<?= BASE; ?>/audio-e-video">Midia</a></li>
+                    <li><a title="Geolocation e HTML Storage" href="<?= BASE; ?>/geolocation-e-storage">API'S</a></li>
+                    <li><a title="Distribuição com Micro Dados" href="<?= BASE; ?>/micro-dados">Micro Dados</a></li>
+                    <li><a class="btn btn-green radius boxshadow" title="Comprar Curso" target="_blank" href="https://www.upinside.com.br/">Comprar Curso</a></li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </header>
+        
+        <!--CONTEÚDO-->
+        <!--Bloco de vídeo-->
+        <article class="container">
+            <div class="content">
+                <header>
+                    <hgroup>
+                        <h1>Conheça o curso WS HTML5!</h1>
+                        <h2>Veja o que o tutor do curso <mark>Robson V. Leite</mark> tem a dizer!</h2>
+                    </hgroup>
+                </header>
+                
+                <video src="midia/video.mp4" controls width="400"></video>
+                
+                <aside>
+                    <h1>Pronto para <a title="Comprar Curso WS HTML5 Agora!" target="_blank" href="https://www.upinside.com.br/cursos/html5-do-jeito-certo">Comprar o WS HTML5</a> e Aprender de Verdade?</h1>
+                </aside>                
+                <div class="clear"></div>
+            </div>
+            
+            <footer class="bg-blulight">
+                <section class="content">
+                    <h1>Veja Algumas Aulas do Curso WS HTML5!</h1>
+                   
+                    <article>
+                        <div class="thumb">
+                            <div class="video_play"></div>
+                            <img title="Vídeo Aula Entenda o HTML5" alt="[Entenda o HTML5]" src="img/entendendo-o-html5.jpg"/>
+                        </div>
+                        <h1>Entenda o HTML5</h1>
+                    </article>
+                    
+                    <article>
+                        <div class="thumb">
+                            <div class="video_play"></div>
+                            <img title="Vídeo Aula Entenda o HTML5" alt="[Entenda o HTML5]" src="img/entendendo-o-html5.jpg"/>
+                        </div>
+                        <h1>Entenda o HTML5</h1>
+                    </article>
+                    
+                    <article>
+                        <div class="thumb">
+                            <div class="video_play"></div>
+                            <img title="Vídeo Aula Entenda o HTML5" alt="[Entenda o HTML5]" src="img/entendendo-o-html5.jpg"/>
+                        </div>
+                        <h1>Entenda o HTML5</h1>
+                    </article>
+                    
+                    <article>
+                        <div class="thumb">
+                            <div class="video_play"></div>
+                            <img title="Vídeo Aula Entenda o HTML5" alt="[Entenda o HTML5]" src="img/entendendo-o-html5.jpg"/>
+                        </div>
+                        <h1>Entenda o HTML5</h1>
+                    </article>
+                    
+                    <div class="clear"></div>
+                </section>
+            </footer>
+        </article>
+        
+        <!--seção relacional-->
+        <section class="container bg-orange">
+            <!--Container do title-->
+            <div class="content">
+                <hgroup>
+                    <h1>Conheça as tecnologias apresentadas:</h1>
+                    <h2>O Curso WS HTML5 apresenta técnicas com foco em produção e otimização de conteúdo para internet!</h2>
+                </hgroup>                
+                
+                <div class="clear"></div>
+            </div>
+            
+            <!--Container dos artigos-->
+            <div class="container bg-body">
+                <div class="content">
+                    
+                    <article>
+                        <img title="Módulo de HTML5 Semântico" alt="[HTML5 Semântico]" src="img/tec_semantic.png"/>
+                        <h1>HTML5 Semântico:</h1>
+                        <p class="tagline">Aprenda a produzir conteúdo de qualidade. Otimizando cada bloco tanto para usuários quanto para rôbos de busca!</p>
+                    </article>
+                    
+                    <article>
+                        <img title="Módulo de CSS produtivo com OOCSS" alt="[CSS produtivo com OOCSS]" src="img/tec_drycss.png"/>
+                        <h1>CSS produtivo com OOCSS:</h1>
+                        <p class="tagline">Conheça as técnicas de produção do modelo OOCSS, construindo um ambiente padronizado e de ágil desenvolvimento!</p>
+                    </article>
+                    
+                    <article>
+                        <img title="Módulo de Formulários com HTML5" alt="[Formulários com HTML5]" src="img/tec_forms.png"/>
+                        <h1>Formulários com HTML5:</h1>
+                        <p class="tagline">Conheça e aprenda a utilizar toda tecnologia dos novos elementos de formulários do HTML5!</p>
+                    </article>
+                    
+                    <article>
+                        <img title="Módulo de Áudio e Vídeo na Web" alt="[Áudio e Vídeo na Web]" src="img/tec_midia.png"/>
+                        <h1>Áudio e Vídeo na Web:</h1>
+                        <p class="tagline">Nunca foi tão fácil incorporar e controlar mídias na internet. Aprenda a fazer isso de forma fácil!</p>
+                    </article>
+                    
+                    <article>
+                        <img title="Módulo de Geolocation e HTML5 Storage" alt="[Geolocation e HTML5 Storage]" src="img/tec_geo.png"/>
+                        <h1>Geolocation e HTML5 Storage:</h1>
+                        <p class="tagline">Aprenda a utilizar a tecnologia de localização do HTML5. E ainda armazene dados de navegação apenas com HTML!</p>
+                    </article>
+                    
+                    <article>
+                        <img title="Módulo de Distribuição com Micro Dados" alt="[Distribuição com Micro Dados]" src="img/tec_microdados.png"/>
+                        <h1>Distribuição com Micro Dados:</h1>
+                        <p class="tagline">Aprenda a utilizar o vocabulário dos micro dados para distribuição de conteúdo otimizado de forma extrema!</p>
+                    </article>                    
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </section>
+        
+        <!--Seção Temático-->
+        <section class="container bg-blulight">
+            <div class="content">
+                <div class="ses_title">
+                    <h1>Ficha Técnica:</h1>
+                    <p class="tagline">Saiba mais sobre o conteúdo do curso WS HTML5</p>
+                </div>
+                
+                <article><h1>Tempo em Aula: <b>23h</b></h1></article>
+                <article><h1>Certifica de: <b>230h</b></h1></article>
+                <article><h1>Módulos: <b>8</b></h1></article>
+                <article><h1>Vídeo Aulas: <b>50</b></h1></article>
+                
+                <div class="clear"></div>
+            </div>
+        </section>
+        
+        <!--Bloco de retorno e conversão-->
+        <article class="container bg-orange">
+            <div class="content">
+                <header>
+                    <hgroup>
+                        <h1>Faça Parte da Turma WS HTML5, Matricule-se!</h1>
+                        <h2>Comece Agora Mesmo. O Curso é <mark>100% em Vídeo Aulas</mark>, <mark>Online</mark> e <mark>On Demand!</mark></h2>
+                    </hgroup>
+                </header>
+                
+                <a title="Quero Me Matricular no Curso WS HTML5 Agora!" target="_blank" href="https://www.upinside.com.br/cursos/html5-do-jeito-certo">Comprar WS HTML5!</a>
+                
+                <footer>
+                    <div>
+                        Você estuda quando e onde quiser na melhor plataforma EAD. Com suporte diretamente com o tutor, e todo material disponível para download!
+                    </div>
+                </footer>
+                
+                <div class="clear"></div>
+            </div>
+        </article>
+        
+        <!--Content visual-->
+        <div class="container">
+            <div class="content">
+                UpInside Treinamentos. Os melhores e mais completo cursos de desenvolvimento Web e TI do mercado!
+                <div class="clear"></div>
+            </div>
+        </div>
+        
+        <!--CONTEÚDO-->
+        
+        <footer class="container bg-light">
+            <section class="content main_footer">
+                <h1 class="fontzero">Sobre a UpInside Treinamentos</h1>
+                
+                <nav class="box box-medium">
+                    <h1 class="title font-bold">Mais sobre o  WS HTML5:</h1>
+                    <ul>
+                        <li><a class="shorticon shorticon-section" title="Assista o Vídeo de Apresentação" href="#apresentacao">Assista o Vídeo</a></li>
+                        <li><a class="shorticon shorticon-section" title="Apresentação" href="#apresentacao">Assista o Vídeo</a></li>
+                        <li><a class="shorticon shorticon-section" title="Assista o Vídeo de Apresentação" href="#apresentacao">Assista o Vídeo</a></li>
+                    </ul>
+                </nav>
+                
+                <article class="box box-medium">
+                    <h1 class="title font-bold">UpInside nas redes sociais:</h1>
+                    <ul>
+                        <li><a class="shorticon shorticon-facebook" target="_blank" rel="nofollow" title="UpInside Treinamentos no Facebook" href="http://www.facebook.com/upinside">Facebook</a></li>
+                        <li><a class="shorticon shorticon-google" target="_blank" rel="nofollow" title="UpInside Treinamentos no Google Plus" href="http://plus.google.com/+upinside">Google+</a></li>
+                        <li><a class="shorticon shorticon-twitter" target="_blank" rel="nofollow" title="UpInside Treinamentos no Twitter" href="http://www.twitter.com/UpInsideBr">Twitter</a></li>
+                    </ul>
+                </article>
+                
+                <article class="main_ead box box-medium last">
+                    <h1 class="fontzero">Plataforma UpInside</h1>
+                    
+                    <p class="shorticon shorticon-config"><b>Plataforma EAD:</b> <a title="Plataforma EAD da UpInside" href="http://www.upinside.com.br/">www.upinside.com.br</a></p>
+                    <p class="shorticon shorticon-mail"><b>E-mail:</b> <a title="Envie um email" href="mailto:cursos@upinside.com.br">cursos@upinside.com.br</a></p>
+                    <hr>
+                    <p class="plast">&copy; <?= date('Y'); ?> - UpInside Treinamentos, Todos os Direitos Reservados!</p>                    
+                </article>
+                
+                <div class="clear"></div>
+            </section>
+        </footer>
+        
+    </body>
+</html>

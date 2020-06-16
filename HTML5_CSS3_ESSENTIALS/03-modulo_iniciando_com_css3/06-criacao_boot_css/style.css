@@ -1,0 +1,40 @@
+.main_blog{
+    max-width: calc(1000px - 80px); /*os 80px e referente ao padding de 40px de cada lado*/
+    width: calc(96% - 80px);
+    background-color: #ccc;
+    padding: 40px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_blog header{
+    flex-basis: 100%;
+}
+
+.main_blog article{
+    flex-basis: calc(50% - 40px - 20px);/*os 20px seria a margin entre o blocos*/
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.main_blog article p{
+    font-size: 1.1em;
+}
+
+.title_medium_lightgray{
+    color: #ccc !important;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #ccc;
+}
+
+@media(max-width: 640px){
+    .main_blog article{
+        flex-basis: calc(100% - 40px);
+    }
+}

@@ -1,0 +1,77 @@
+/*LOGO*/
+.main_logo{position: relative; width: 242px; height: 60px;}
+.main_logo a{position: absolute; width: 210px; height: 60px; background: url(../img/logo-ws-html5.png) center center no-repeat; background-size: auto 76%;}
+.main_logo a:hover{background-color: #222;}
+
+/*MENU PRINCIPAL*/
+.main_nav{width: auto; margin-top: 10px;}
+.main_nav li{float: left;}
+.main_nav a{float: left; padding: 12px 16px; color: #eee; font-weight: normal;}
+.main_nav a:hover{color: #fff; text-decoration: underline;}
+
+/*RODAPÉ*/
+.main_footer .title{font-size: 1em; text-transform: uppercase; margin-bottom: 10px; padding-bottom: 8px; border-bottom: 1px solid #ccc;}
+.main_footer li{margin-bottom: 3px; padding: 3px 0;}
+.main_footer a{color: #CF4823;}
+.main_footer a:hover{text-decoration: underline;}
+
+/*rodape last*/
+.main_ead hr{margin-bottom: 15px;}
+.main_ead .plast{margin: 0; font-size: 1em; line-height: 1.4;}
+
+/*VÍDEO PRINCIPAL*/
+.main_video{margin-bottom: 24px; padding-bottom: 24px; background: url(../img/video_shadow.png) bottom center no-repeat;}
+
+/*vídeos de navegação*/
+.main_videos h1{margin-bottom: 30px;}
+.main_videos .box{margin-bottom: 30px;}
+.main_videos .box_video_title{font-size: 1em; font-weight: normal; margin: 0;}
+.main_videos .thumb{float: left; position: relative; margin-bottom: 10px;}
+.main_videos .video_play{position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.2) url(../img/play_video.png) left 10px bottom 10px no-repeat; background-size: auto 50%; cursor: pointer;}
+.main_videos .video_play:hover{background-color: rgba(207,72,35,0.5);}
+
+/*TEC CARACTERISTIAS*/
+.main_tec_item{padding: 15px 30px; margin-bottom: 30px; min-height: 380px;}
+.main_tec_item:hover{background: #FF7C6D; color: #FFF; -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.3); -moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.3); box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.3);}
+.main_tec_item img{padding: 25px; width: 80%; margin: 0 10%; background: #eee; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; margin-bottom: 15px;}
+.main_tec_item h1{font-size: 1.4em; margin-bottom: 15px;}
+.main_tec_item .tagline{font-size: 1em;}
+
+/*FICHA TÉCNICA*/
+.main_info{padding: 25px; background: #eee; text-align: center;}
+.main_info h1{font-size: 1em;}
+.main_info b{display: block; font-size: 4em;}
+
+/*DOBRA DE CONVERSÃO*/
+.main_chamada{float: left; width: 80%; margin: 40px 10% 0 10%; font-size: 1.5em; font-weight: 300;}
+
+/*404*/
+.related_item h1{margin: 10px 0;}
+.related_item a{color: #CF4823;}
+.related_item a:hover{text-decoration: underline;}
+.related_item .tagline{font-size: 0.85em; color: #555;}
+
+.reverse_nav{text-align: center;}
+.reverse_nav li{display: inline-block; margin: 15px;}
+.reverse_nav a{color: #fff;}
+.reverse_nav a:hover{text-decoration: underline;}
+
+/*SOBRE :: EMPRESA*/
+.main_bus .title{font-size: 1.8em; font-weight: 300;}
+.main_bus ul{margin: 20px 0;}
+.main_bus li{margin-bottom: 10px;}
+.main_bus a{color: #CF4823;}
+.main_bus a:hover{text-decoration: underline;}
+
+.main_bus_person{margin: 30px 0 0;}
+.main_bus_person li{display: inline-block; margin: 0 30px 0 0;}
+.main_bus_person a{padding: 5px 15px; background: #fff; color: #34495e;}
+.main_bus_person a:hover{background: #CF4823; color: #fff;}
+
+
+/*CONTATO*/
+.contact_info ul{margin-bottom: 30px;}
+.contact_info li{margin-bottom: 10px; font-size: 1.1em;}
+.contact_info a{color: #CF4823;}
+.contact_info a:hover{text-decoration: underline;}
+.contact_info p{font-size: 1.4em; font-weight: 300;}

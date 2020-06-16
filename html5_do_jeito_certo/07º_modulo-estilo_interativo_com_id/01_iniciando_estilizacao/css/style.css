@@ -1,0 +1,9 @@
+/*Aqui o width e height tem a altura que a imagem da logo apresenta*/
+.main_logo{position: relative; width: 242px; height: 60px;}
+.main_logo a{position: absolute; width: 210px; height: 60px; background: url(../img/logo-ws-html5.png) center center no-repeat; background-size: auto 76%;}
+.main_logo a:hover{background-color: #222;}
+
+.main_nav{width: auto; margin-top: 10px;}
+.main_nav li{float: left;}
+.main_nav a{float: left; padding: 12px 16px; color: #eee; font-weight: 300;}
+.main_nav a:hover{color: #fff; text-decoration: underline;}
